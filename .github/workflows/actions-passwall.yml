@@ -9,8 +9,8 @@
 name: passwall
 
 on:
- # release:
- #   types: [published]
+  release:
+    types: [published]
  # push:
  #   branches:
  #     - master
