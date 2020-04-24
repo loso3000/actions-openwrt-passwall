@@ -9,17 +9,17 @@
 name: passwall
 
 on:
-  release:
-    types: [published]
-  push:
-    branches:
-      - master
-    paths:
-      - '.config'
-  schedule:
-    - cron: 0 2 * * 5
-  watch:
-    types: [started]
+ # release:
+ #   types: [published]
+ # push:
+ #   branches:
+ #     - master
+ #   paths:
+ #     - '.config'
+ # schedule:
+ #   - cron: 0 2 * * 5
+ # watch:
+ #   types: [started]
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
